@@ -84,7 +84,7 @@
     <distributionManagement>
          <repository>
             <id>maven-releases</id>
-            <url>http://3.1.79.154:8081/repository/maven-releases/</url>
+            <url>http://13.250.97.251:8081/repository/maven-releases/</url>
          </repository>
     </distributionManagement>
          
@@ -561,7 +561,7 @@
          <repository>
             <id>maven-releases</id>
             <name>maven-releases</name>
-            <url>http://3.1.79.154:8081/repository/maven-releases/</url>
+            <url>http://13.250.97.251:8081/repository/maven-releases/</url>
          </repository>
     </repositories>
 
