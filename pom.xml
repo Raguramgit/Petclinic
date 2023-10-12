@@ -81,13 +81,13 @@
         <docker.image.prefix>springcommunity</docker.image.prefix>
 
     </properties>
-
-    <dependencyManagement>
+    <distributionManagement>
          <repository>
             <id>maven-releases</id>
             <url>http://3.1.79.154:8081/repository/maven-releases/</url>
-        </repository>
-</dependencyManagement>
+         </repository>
+    </distributionManagement>
+         
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -562,7 +562,7 @@
             <id>maven-releases</id>
             <name>maven-releases</name>
             <url>http://3.1.79.154:8081/repository/maven-releases/</url>
-        </repository>
+         </repository>
     </repositories>
 
 </project>
